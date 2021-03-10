@@ -6,7 +6,7 @@ pipeline{
 stages{
     stage('Git checkout'){
         steps{
-          git credentialsId: 'vijaykumar74', url: 'https://github.com/vijaykumar73/iac-demo'
+          git credentialsId: '8e9a1f22-a7dc-4919-bee0-78046583233a', url: 'https://github.com/devopschak/iac-demo'
         }
     }
 stage('terraform init'){
